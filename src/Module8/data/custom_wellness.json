@@ -1,0 +1,209 @@
+[
+  {
+    "intent": "stress_management",
+    "patterns": [
+      "I'm stressed",
+      "I feel stressed",
+      "I'm under a lot of stress",
+      "I'm overwhelmed",
+      "I feel overwhelmed",
+      "I'm anxious",
+      "I feel anxious",
+      "I'm panicking",
+      "I feel pressure",
+      "I'm stressed out",
+      "too much stress",
+      "I can't relax",
+      "my stress is high",
+      "I'm tense",
+      "I feel tense",
+      "I'm mentally exhausted",
+      "I'm emotionally exhausted",
+      "I'm drained",
+      "I'm burned out",
+      "I feel burned out",
+      "I'm at my limit",
+      "I'm reaching my breaking point"
+    ],
+    "responses": [
+      "It's okay to feel overwhelmed. Try taking a slow breath in and out. You're doing your best.",
+      "Your stress makes sense given everything you're carrying. Even pausing for a minute is a real step.",
+      "You don’t have to fix everything at once. What’s one small thing you can do to feel 1% calmer?",
+      "Your feelings are valid. Sometimes naming the stress is the first step toward easing it."
+    ]
+  },
+  {
+    "intent": "overload",
+    "patterns": [
+      "I have too much to do",
+      "I got too much stuff at work, college and home",
+      "I have so much on my plate",
+      "I'm juggling too many things",
+      "I can't keep up",
+      "everything is piling up",
+      "I feel like I'm drowning in responsibilities",
+      "I have too many responsibilities",
+      "work is too much",
+      "school is too much",
+      "life is too much",
+      "I can't balance everything",
+      "I feel overwhelmed with work",
+      "I feel overwhelmed with school",
+      "I feel overwhelmed with everything",
+      "I have no time for myself",
+      "I'm overloaded",
+      "I'm swamped",
+      "I'm buried in work",
+      "I'm behind on everything"
+    ],
+    "responses": [
+      "That sounds like a heavy load to carry. Let’s take it one step at a time — what feels most urgent right now?",
+      "You’re carrying a lot. It might help to write everything down and choose just one thing to focus on.",
+      "You don’t have to do it all today. What’s one task you could simplify, delegate, or postpone?",
+      "Feeling overloaded doesn’t mean you’re failing — it means you’re human and you’ve been doing a lot."
+    ]
+  },
+  {
+    "intent": "loneliness_support",
+    "patterns": [
+      "I feel lonely",
+      "I'm lonely",
+      "I feel alone",
+      "I feel isolated",
+      "I don't have anyone",
+      "I feel like nobody cares",
+      "I feel disconnected",
+      "I feel empty",
+      "I feel sad and alone",
+      "I feel like I'm by myself",
+      "I feel abandoned",
+      "I feel like no one understands me"
+    ],
+    "responses": [
+      "Thank you for sharing that with me. Your feelings are valid, and you’re not alone right now.",
+      "Loneliness can hurt a lot. Reaching out like this is already a brave step.",
+      "You matter more than you realize. Even if it doesn’t feel that way, your presence has value.",
+      "It’s okay to want connection. Is there one small way you could reach out to someone you trust?"
+    ]
+  },
+  {
+    "intent": "motivation",
+    "patterns": [
+      "I need motivation",
+      "help me stay motivated",
+      "I feel unmotivated",
+      "I can't get started",
+      "I feel stuck",
+      "I feel unproductive",
+      "I can't focus",
+      "I keep procrastinating",
+      "I don't feel like doing anything",
+      "I need encouragement",
+      "I need a push",
+      "I need inspiration",
+      "I want to be productive",
+      "I want to get things done",
+      "I want to start again",
+      "I want to get back on track"
+    ],
+    "responses": [
+      "You don’t need to be perfect to make progress. One small step today is enough.",
+      "Motivation often shows up after we start, not before. What’s the tiniest action you can take right now?",
+      "You’ve done hard things before. This is another moment you can move through, one step at a time.",
+      "Even if today is messy, it can still count. Small, imperfect effort still moves you forward."
+    ]
+  },
+  {
+    "intent": "healthy_habits",
+    "patterns": [
+      "I want to build better habits",
+      "help me be healthier",
+      "how do I start a routine",
+      "I want to start working out",
+      "how can I start going to the gym again",
+      "I want to exercise more",
+      "I want to eat healthier",
+      "I want to sleep better",
+      "I want to improve my habits",
+      "I want to get back into a routine",
+      "I want to take care of myself",
+      "I want to feel better physically"
+    ],
+    "responses": [
+      "Start with one simple habit you can do in under 2 minutes. Consistency beats intensity.",
+      "Pick one habit and tie it to something you already do, like brushing your teeth or making coffee.",
+      "Change doesn’t have to be dramatic to be real. Tiny, repeatable actions add up over time.",
+      "Be kind to yourself as you start. Slipping up doesn’t erase your progress — it’s part of the process."
+    ]
+  },
+  {
+    "intent": "affirmation",
+    "patterns": [
+      "I need reassurance",
+      "I need support",
+      "I need comfort",
+      "I need something positive",
+      "tell me something positive",
+      "tell me something good",
+      "I need a kind word",
+      "I need encouragement",
+      "I need hope"
+    ],
+    "responses": [
+      "You’re doing better than you think. You’ve already made it through so much.",
+      "You are not defined by your hardest days. There is more to your story than this moment.",
+      "Even when you doubt yourself, your effort still matters. Showing up is already a win.",
+      "You deserve rest, care, and kindness — including from yourself."
+    ]
+  },
+  {
+    "intent": "continuation_yes",
+    "patterns": [
+      "yes",
+      "yes please",
+      "yes, please",
+      "sure",
+      "ok",
+      "okay",
+      "yep",
+      "yeah",
+      "yup",
+      "pls",
+      "please",
+      "go ahead",
+      "continue",
+      "tell me",
+      "tell me more",
+      "give me one",
+      "give me a tip",
+      "give me advice"
+    ],
+    "responses": [
+      "Here’s something that might help: take one small action that moves you forward today. Even tiny progress counts.",
+      "Another idea: pause for a moment, take a deep breath, and ask yourself what you need right now.",
+      "Try breaking your next task into the smallest possible step. Make it so easy you can’t say no.",
+      "You don’t have to have it all figured out. Just choose the next kind, helpful step for yourself."
+    ]
+  },
+  {
+    "intent": "general_help",
+    "patterns": [
+      "help",
+      "help me",
+      "I need help",
+      "I need guidance",
+      "I need advice",
+      "what should I do",
+      "I don't know what to do",
+      "I'm lost",
+      "I'm confused",
+      "I feel stuck"
+    ],
+    "responses": [
+      "You’re not alone in this. Let’s take it step by step — what part feels hardest right now?",
+      "It’s okay not to have all the answers. We can start by naming what’s bothering you most.",
+      "When everything feels confusing, focus on the next small decision instead of the whole picture.",
+      "You don’t have to solve everything today. What’s one thing you’d like to feel a little clearer about?"
+    ]
+  }
+]
