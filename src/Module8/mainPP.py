@@ -94,7 +94,12 @@ class ChatbotEngine:
 
     def __load_dataset(self):
         print("Loading spacy...")
-        self.nlp = self.spacy.load('en_core_web_sm')
+        try:
+            self.nlp = self.spacy.load("en_core_web_sm")
+        except OSError:
+            print("Model 'en_core_web_sm' not found. Installing...")
+            subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
+            self.nlp = self.spacy.load("en_core_web_sm")
 
         print("Downloading required files...\n")
         for ds in ['stopwords', 'wordnet']:
